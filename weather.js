@@ -51,7 +51,4 @@ let weather = {
         }
       });
     
-    document.querySelector(".search-bar").addEventListener('change', function(){
-        document.querySelector("body").style.setProperty('--selected-city', )
-    })
     weather.fetchWeather("Denver");
